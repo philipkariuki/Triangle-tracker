@@ -24,10 +24,13 @@
 }
 
 .nav ul {
-  list-style-type: none;
+  list-style-type: square;
+  list-style-position: inside;
   padding: 0;
+  margin: 10px;
   font-size: 19px;
   color: rgb(145, 20, 78);
+  line-height: 150%;
 }
 
 
