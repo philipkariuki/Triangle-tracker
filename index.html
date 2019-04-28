@@ -7,6 +7,7 @@
 </head>
 
 <body>
+  <script src="js/scripts.js"></script>
   <div class="header">
     <h2>Triangle Tracker</h2>
   </div>
@@ -29,12 +30,16 @@
     </div>
 
   <div class="main">
-
-      <input type='text' id='myText' />
-      <br><br>
-      <input type='button' onclick='notEmpty()' value='Check Triangle' />
-
-
+      <input type='text' id='sideA' /> : Side A
+      <span id="sideAerror" class="error-span"> </span>
+      <input type='text' id='sideB' /> : Side B
+      <span id="sideBerror" class="error-span"> </span>
+      <input type='text' id='sideC'   /> : Side C
+      <span id="sideCerror" class="error-span"> </span>   
+   <div>
+         <input type='button' class="button-submit" onclick='checkTriangle()' value='Triangle Checker' />
+    </div>
+    
     
   </div>
  
