@@ -45,21 +45,49 @@
   height: 520px;
 }
 
+input[type=text] {
+  width: 80%;
+  padding: 15px 22px;
+  margin: 10px 5px;
+  box-sizing: border-box;  
+}
 
 .footer {
-  background-color: rgb(139, 136, 136);
+  background-color: rgb(61, 22, 134);
   padding: 10px;
   font-size: 30px;
   text-align: center;
-  color: white;
+  color: rgb(205, 247, 18);
   }
 
 .cat-triangles {
-  background-color: rgb(145, 144, 206);
+  color: rgb(213, 226, 216);
+  text-shadow: 2px 2px 4px #640e0e;
   font-style: italic;
   font-weight: bold;
   }
 
+.error-span {
+   display: block;
+   color: red;
+  }
+
+.button-submit {
+  width: 12%;
+  background-color: rgb(136, 87, 226);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.button-submit:hover {
+  background-color: #45a049;
+}
+
+  
 @media (max-width: 600px) {
   nav, article {
     width: 100%;
