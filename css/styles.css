@@ -37,6 +37,7 @@
 .main {
   float: left;
   padding: 20px;
+  padding-top: 60px;
   font-family: monaco,Consolas,Lucida Console,monospace;
   font-size: 22px;
   color: dodgerblue;
