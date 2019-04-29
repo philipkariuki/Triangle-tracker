@@ -40,6 +40,10 @@ function checkTriangle(){
     {
         result = "This is an isosceles triangle.";
     }
+    else if (((sideA+sideB )<= sideC) || ((sideA+sideC) <= sideB) || ((sideB+sideC) <= sideA))
+    {
+          result = "The sides do not form a triangle";
+    }
 
     document.getElementById('checkresults').innerHTML  = result;
     
