@@ -8,9 +8,13 @@ var sideC; //side C as a string
 function checkTriangle(){
     var sideA = document.getElementById('sideA').value;
     sideA = parseInt(sideA);
-        if(isNaN(sideA)){
-        document.getElementById('sideAerror').innerHTML  = "Please enter valid numbers";
-        return;
+    document.getElementById('sideAerror').innerHTML  = "";
+    document.getElementById('sideBerror').innerHTML  = "";
+    document.getElementById('sideCerror').innerHTML  = "";
+    document.getElementById('checkresults').innerHTML  = "";
+    if(isNaN(sideA)){
+    document.getElementById('sideAerror').innerHTML  = "Please enter valid numbers";
+    return;
     }
 
     var sideB = document.getElementById('sideB').value;
