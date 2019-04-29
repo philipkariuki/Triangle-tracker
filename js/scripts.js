@@ -27,6 +27,12 @@ function checkTriangle(){
         return;
     }
 
+    // rejects values less than or equal to zero
+    if (sideA <= 0 || sideB <= 0 || sideC <= 0)
+    {
+        result = "Invalid";
+    }
+
     document.getElementById('checkresults').innerHTML  = result;
     
     
