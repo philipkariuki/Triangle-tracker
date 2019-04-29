@@ -44,6 +44,11 @@ function checkTriangle(){
     {
           result = "The sides do not form a triangle";
     }
+    else //check whether no sides are equal
+    {
+        result = "This is a scalene triangle";
+    }
+
 
     document.getElementById('checkresults').innerHTML  = result;
     
