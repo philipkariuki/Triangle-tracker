@@ -20,7 +20,12 @@ function checkTriangle(){
         return;
     }
 
-
+    var sideC = document.getElementById('sideC').value;
+    sideC = parseInt(sideC);
+    if(isNaN(sideC)){
+        document.getElementById('sideCerror').innerHTML  = "Please enter valid numbers";
+        return;
+    }
 
     document.getElementById('checkresults').innerHTML  = result;
     
