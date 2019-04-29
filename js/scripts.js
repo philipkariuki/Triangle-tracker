@@ -13,6 +13,13 @@ function checkTriangle(){
         return;
     }
 
+    var sideB = document.getElementById('sideB').value;
+    sideB = parseInt(sideB);
+    if(isNaN(sideB)){
+        document.getElementById('sideBerror').innerHTML  = "Please enter valid numbers";
+        return;
+    }
+
 
 
     document.getElementById('checkresults').innerHTML  = result;
