@@ -32,6 +32,10 @@ function checkTriangle(){
     {
         result = "Invalid";
     }
+    else if(sideA==sideB && sideB==sideC) //check whether all sides are equal
+    {
+        result = "This is an equilateral triangle";
+    }
 
     document.getElementById('checkresults').innerHTML  = result;
     
