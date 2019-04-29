@@ -36,6 +36,10 @@ function checkTriangle(){
     {
         result = "This is an equilateral triangle";
     }
+    else if(sideA==sideB || sideA==sideC || sideB==sideC) //check whether any two sides are equal
+    {
+        result = "This is an isosceles triangle.";
+    }
 
     document.getElementById('checkresults').innerHTML  = result;
     
