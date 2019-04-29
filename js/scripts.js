@@ -31,6 +31,12 @@ function checkTriangle(){
         return;
     }
 
+    console.log("sideA",sideA);  // For debugging in console
+
+    console.log("sideB",sideB);
+
+    console.log("sideC",sideC);
+
     // rejects values less than or equal to zero
     if (sideA <= 0 || sideB <= 0 || sideC <= 0)
     {
